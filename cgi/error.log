@@ -1,0 +1,24 @@
+[Sat Dec 23 15:37:19.310256 2023] [authz_core:error] [pid 2300:tid 1968] [client 127.0.0.1:60813] AH01630: client denied by server configuration: C:/python/python201/cgi/
+[Sat Dec 23 15:37:19.360295 2023] [authz_core:error] [pid 2300:tid 1968] [client 127.0.0.1:60813] AH01630: client denied by server configuration: C:/python/python201/cgi/favicon.ico, referer: http://py201.loc/
+[Sat Dec 23 15:39:00.046090 2023] [authz_core:error] [pid 15812:tid 1920] [client 127.0.0.1:62767] AH01630: client denied by server configuration: C:/python/python201/cgi/index.py
+[Sat Dec 23 15:39:00.090313 2023] [authz_core:error] [pid 15812:tid 1920] [client 127.0.0.1:62767] AH01630: client denied by server configuration: C:/python/python201/cgi/favicon.ico, referer: http://py201.loc/index.py
+[Sat Dec 23 15:39:01.134380 2023] [authz_core:error] [pid 15812:tid 1920] [client 127.0.0.1:62767] AH01630: client denied by server configuration: C:/python/python201/cgi/index.py
+[Sat Dec 23 15:39:01.160896 2023] [authz_core:error] [pid 15812:tid 1920] [client 127.0.0.1:62767] AH01630: client denied by server configuration: C:/python/python201/cgi/favicon.ico, referer: http://py201.loc/index.py
+[Sat Dec 23 15:42:17.012289 2023] [authz_core:error] [pid 15812:tid 1920] [client 127.0.0.1:65167] AH01630: client denied by server configuration: C:/python/python201/cgi/
+[Sat Dec 23 15:42:17.063741 2023] [authz_core:error] [pid 15812:tid 1920] [client 127.0.0.1:65167] AH01630: client denied by server configuration: C:/python/python201/cgi/favicon.ico, referer: http://py201.loc/
+[Sat Dec 23 15:43:04.188894 2023] [authz_core:error] [pid 2988:tid 1912] [client 127.0.0.1:49362] AH01630: client denied by server configuration: C:/python/python201/cgi/
+[Sat Dec 23 15:43:04.234737 2023] [authz_core:error] [pid 2988:tid 1912] [client 127.0.0.1:49362] AH01630: client denied by server configuration: C:/python/python201/cgi/favicon.ico, referer: http://py201.loc/
+[Sat Dec 23 15:43:16.034931 2023] [authz_core:error] [pid 2988:tid 1920] [client 127.0.0.1:49361] AH01630: client denied by server configuration: C:/python/python201/cgi/
+[Sat Dec 23 15:43:16.081508 2023] [authz_core:error] [pid 2988:tid 1920] [client 127.0.0.1:49361] AH01630: client denied by server configuration: C:/python/python201/cgi/favicon.ico, referer: http://py201.loc/
+[Sat Dec 23 15:43:24.455469 2023] [authz_core:error] [pid 2988:tid 1912] [client 127.0.0.1:49508] AH01630: client denied by server configuration: C:/python/python201/cgi/
+[Sat Dec 23 15:43:24.492559 2023] [authz_core:error] [pid 2988:tid 1912] [client 127.0.0.1:49508] AH01630: client denied by server configuration: C:/python/python201/cgi/favicon.ico, referer: http://py201.loc/
+[Sat Dec 23 15:55:22.008231 2023] [win32:error] [pid 16440:tid 1920] [client 127.0.0.1:58441] AH02102: C:/python/python201/cgi/api/product.py is not executable; ensure interpreted scripts have "#!" or "'!" first line, referer: http://py201.loc/en/product/123
+[Sat Dec 23 15:55:22.008231 2023] [cgi:error] [pid 16440:tid 1920] (9)Bad file descriptor: [client 127.0.0.1:58441] AH01222: don't know how to spawn child process: C:/python/python201/cgi/api/product.py, referer: http://py201.loc/en/product/123
+[Sat Dec 23 15:56:32.479833 2023] [cgi:error] [pid 16440:tid 1912] [client 127.0.0.1:59366] End of script output before headers: product.py, referer: http://py201.loc/en/product/123
+[Sat Dec 23 15:56:32.479833 2023] [cgi:error] [pid 16440:tid 1912] [client 127.0.0.1:59366] AH01215: Traceback (most recent call last):\r: C:/python/python201/cgi/product.py, referer: http://py201.loc/en/product/123
+[Sat Dec 23 15:56:32.479833 2023] [cgi:error] [pid 16440:tid 1912] [client 127.0.0.1:59366] AH01215:   File "C:\\python\\python201\\cgi\\product.py", line 4, in <module>\r: C:/python/python201/cgi/product.py, referer: http://py201.loc/en/product/123
+[Sat Dec 23 15:56:32.479833 2023] [cgi:error] [pid 16440:tid 1912] [client 127.0.0.1:59366] AH01215:     query_params= {k: v for k, v in \r: C:/python/python201/cgi/product.py, referer: http://py201.loc/en/product/123
+[Sat Dec 23 15:56:32.480835 2023] [cgi:error] [pid 16440:tid 1912] [client 127.0.0.1:59366] AH01215:   File "C:\\python\\python201\\cgi\\product.py", line 4, in <dictcomp>\r: C:/python/python201/cgi/product.py, referer: http://py201.loc/en/product/123
+[Sat Dec 23 15:56:32.480835 2023] [cgi:error] [pid 16440:tid 1912] [client 127.0.0.1:59366] AH01215:     query_params= {k: v for k, v in \r: C:/python/python201/cgi/product.py, referer: http://py201.loc/en/product/123
+[Sat Dec 23 15:56:32.480835 2023] [cgi:error] [pid 16440:tid 1912] [client 127.0.0.1:59366] AH01215: ValueError: not enough values to unpack (expected 2, got 1)\r: C:/python/python201/cgi/product.py, referer: http://py201.loc/en/product/123
+[Sat Dec 23 16:01:32.232181 2023] [cgi:error] [pid 16440:tid 1920] [client 127.0.0.1:63192] AH02811: script not found or unable to stat: C:/python/python201/cgi/auth.py

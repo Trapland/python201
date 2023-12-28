@@ -1,0 +1,2 @@
+2023-12-27 17:34:55 ERROR [dao.py::20] Dao cart {'sql': 'INSERT INTO carts (user_id, product_id) VALUES(100634947705896960, 100634889119858688)', 'err': "1054 (42S22): Unknown column 'user_id' in 'field list'"}
+2023-12-27 17:37:53 ERROR [dao.py::21] Dao cart {'sql': 'SELECT * FROM carts', 'err': 'Unread result found'}
